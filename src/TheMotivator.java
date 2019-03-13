@@ -12,6 +12,9 @@ public class TheMotivator {
 	public void thoughtForTheDay() {
 		System.out.println("I'm tired of working.") ;
 	}
+	public void newEvent() {
+		System.out.println("Party at Jane's house tomorrow!") ;
+	}
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
 		tm.thoughtForTheDay();
