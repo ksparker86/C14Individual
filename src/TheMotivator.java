@@ -10,7 +10,7 @@ public class TheMotivator {
 			System.out.println("Well, what can I say?");
 	}
 	public void thoughtForTheDay() {
-		System.out.println("I'm tired of working.") ;
+		System.out.println("I'm getting carpal tunnel from typing so much.") ;
 	}
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
