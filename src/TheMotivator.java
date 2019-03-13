@@ -9,11 +9,12 @@ public class TheMotivator {
 		else
 			System.out.println("Well, what can I say?");
 	}
-	public void fnOne() {
-		System.out.println("I couldn't repair your brakes, so I made your horn louder.") ;
+	public void thoughtForTheDay() {
+		System.out.println("I'm tired of working.") ;
 	}
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
+		tm.thoughtForTheDay();
 		tm.feedback(60);
 	}
 }
