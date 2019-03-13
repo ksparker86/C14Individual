@@ -1,4 +1,11 @@
+import java.util.ArrayList;
+
 public class TheMotivator {
+	private ArrayList<String> events = new ArrayList<String>() ;
+	public void createEvents() {
+		events.add("We're goin to see a movie on Saturday.") ;
+		events.add("Study session on Sunday - Jim's house") ;
+	}
 	public void feedback(int score) {
 		if (score == 100)
 			System.out.println("You're awesome");
